@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name = 'GDTest'
-	s.version = '0.0.2'
+	s.version = '0.0.3'
 	s.summary = 'GD SDK for iOS developers'
 	s.homepage = 'https://github.com/guodong10518/GDTest'
 	s.license = 'MIT'
