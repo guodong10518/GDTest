@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name = 'GDTest'
-	s.version = '0.0.1'
+	s.version = '0.0.2'
 	s.summary = 'GD SDK for iOS developers'
 	s.homepage = 'https://github.com/guodong10518/GDTest'
 	s.license = 'MIT'
@@ -14,4 +14,10 @@ Pod::Spec.new do |s|
     s.source_files = 'GDTest/Header/**/*.h'
     s.public_header_files = 'GDTest/Header/**/*.h'
     s.frameworks = 'UIKit', 'Security', 'MapKit', 'CoreLocation', 'AVFoundation', 'QuartzCore', 'JavaScriptCore'
+    s.dependency 'JSONModel', '~> 1.0.2'
+    s.dependency 'SDWebImage', '~> 3.7.1'
+    s.dependency 'MJRefresh'
+    s.dependency 'MBProgressHUD', '~> 0.9.1'
+    s.dependency 'IQKeyboardManager'
+    s.dependency 'NJKWebViewProgress'
 end
